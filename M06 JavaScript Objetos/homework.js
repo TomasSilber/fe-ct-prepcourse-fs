@@ -152,8 +152,8 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
    // Tu código:
    objetoProducto.calcularPrecioDescuento= (
       function(){
-         var1=(this.precio)*(this.porcentajeDeDescuento);
-         var2=(this.precio)-var1
+         var1=(objetoProducto.precio)*(objetoProducto.porcentajeDeDescuento);
+         var2=(objetoProducto.precio)-var1
          return var2
       } )
       
